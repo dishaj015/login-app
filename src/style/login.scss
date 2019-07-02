@@ -1,0 +1,61 @@
+//login-form
+.login-form{
+text-align: center;
+border: 1px solid;
+padding: 2em;
+margin: 6em 11em;
+
+//text-help
+.form-group .text-help {
+    position: absolute;
+    bottom: -13px;
+    font-size: 12px;
+}
+
+//btn-primary
+ .btn-primary{
+        background-color: #000;
+    }
+
+//login-btn
+.login-btn{
+width: 24%;
+    height: 35px;
+    margin-right: 1em;
+    background-color: black;
+    color: white;
+}
+
+// clear btn
+.clear-btn{
+    @extend .login-btn;
+    background-color: white;
+    color: black;
+}
+// has danger
+.has-danger {
+    label,
+    .form-control-feedback,
+    .custom-control,
+    .input-group .input-group-addon,
+    &.input-group .input-group-addon,
+    .form-control:focus ~ .input-group-addon {
+      color: red;
+    }
+    .form-control,
+    .form-control:focus {
+        margin-bottom: 1.5em;
+      border-color: red;
+    }
+    .form-control-danger {
+      padding-right: 42px;
+      background: {
+        position: center right 15px;
+        image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDI0MS4xNzEgMjQxLjE3MSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQxLjE3MSAyNDEuMTcxOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCI+CjxnPgoJPHBhdGggaWQ9IkNsb3NlIiBkPSJNMTM4LjEzOCwxMjAuNzU0bDk5LjExOC05OC41NzZjNC43NTItNC43MDQsNC43NTItMTIuMzE5LDAtMTcuMDExYy00Ljc0LTQuNzA0LTEyLjQzOS00LjcwNC0xNy4xNzksMCAgIGwtOTkuMDMzLDk4LjQ5MkwyMS4wOTUsMy42OTljLTQuNzQtNC43NTItMTIuNDM5LTQuNzUyLTE3LjE3OSwwYy00Ljc0LDQuNzY0LTQuNzQsMTIuNDc1LDAsMTcuMjI3bDk5Ljg3Niw5OS44ODhMMy41NTUsMjIwLjQ5NyAgIGMtNC43NCw0LjcwNC00Ljc0LDEyLjMxOSwwLDE3LjAxMWM0Ljc0LDQuNzA0LDEyLjQzOSw0LjcwNCwxNy4xNzksMGwxMDAuMTUyLTk5LjU5OWw5OS41NTEsOTkuNTYzICAgYzQuNzQsNC43NTIsMTIuNDM5LDQuNzUyLDE3LjE3OSwwYzQuNzQtNC43NjQsNC43NC0xMi40NzUsMC0xNy4yMjdMMTM4LjEzOCwxMjAuNzU0eiIgZmlsbD0iI2ZmNTI1MiIvPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=);
+        size: 13px 13px;
+        repeat: no-repeat;
+      }
+    }
+  }
+
+}
